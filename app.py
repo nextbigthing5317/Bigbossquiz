@@ -12,14 +12,14 @@ import pickle
 model = pickle.load(open('model.pkl','rb'))
 
 firebaseConfig = {
-  apiKey: "AIzaSyDD7zfvx2SjdfDESN9SMapLQXYIuf2YIX4",
-  authDomain: "big-boss-e0cb7.firebaseapp.com",
+  "apiKey": "AIzaSyDD7zfvx2SjdfDESN9SMapLQXYIuf2YIX4",
+  "authDomain": "big-boss-e0cb7.firebaseapp.com",
   "databaseURL": "https://big-boss-e0cb7-default-rtdb.firebaseio.com/",
-  projectId: "big-boss-e0cb7",
-  storageBucket: "big-boss-e0cb7.appspot.com",
-  messagingSenderId: "786301332598",
-  appId: "1:786301332598:web:4ee4d6d09600b7c9c30357",
-  measurementId: "G-0SBHH1LEVF"
+  "projectId": "big-boss-e0cb7",
+  "storageBucket": "big-boss-e0cb7.appspot.com",
+  "messagingSenderId": "786301332598",
+  "appId": "1:786301332598:web:4ee4d6d09600b7c9c30357",
+  "measurementId": "G-0SBHH1LEVF"
 };
 
 app = Flask(__name__)
